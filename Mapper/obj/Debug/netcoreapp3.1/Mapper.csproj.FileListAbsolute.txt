@@ -1,0 +1,8 @@
+C:\Users\insider Charlie\source\repos\fyp\Mapper\bin\Debug\netcoreapp3.1\Mapper.deps.json
+C:\Users\insider Charlie\source\repos\fyp\Mapper\bin\Debug\netcoreapp3.1\Mapper.dll
+C:\Users\insider Charlie\source\repos\fyp\Mapper\bin\Debug\netcoreapp3.1\Mapper.pdb
+C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.csproj.CoreCompileInputs.cache
+C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfoInputs.cache
+C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfo.cs
+C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.dll
+C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.pdb
