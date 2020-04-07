@@ -6,3 +6,4 @@ C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.AssemblyInfo.cs
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.dll
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.pdb
+C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csprojAssemblyReference.cache
