@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\insider Charlie\\source\\repos\\fyp\\Repositories\\Repositories.csproj": {}
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "C:\\Users\\insider Charlie\\source\\repos\\fyp\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\insider Charlie\\source\\repos\\fyp\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\insider Charlie\\source\\repos\\fyp\\Repositories\\Repositories.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\insider Charlie\\source\\repos\\fyp\\Repositories\\obj\\",
+        "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

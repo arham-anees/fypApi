@@ -7,3 +7,11 @@ C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.
 C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.dll
 C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.pdb
 C:\Users\insider Charlie\source\repos\fyp\Mapper\obj\Debug\netcoreapp3.1\Mapper.csprojAssemblyReference.cache
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\bin\Debug\netcoreapp3.1\Mapper.deps.json
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\bin\Debug\netcoreapp3.1\Mapper.dll
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\bin\Debug\netcoreapp3.1\Mapper.pdb
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.csprojAssemblyReference.cache
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfoInputs.cache
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfo.cs
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.dll
+C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.pdb
