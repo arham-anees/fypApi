@@ -8,19 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\captJack\\.nuget\\packages\\": {}
+    "C:\\Users\\insider Charlie\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj",
+      "projectUniqueName": "D:\\FYP\\api\\BLL\\BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\obj\\",
+      "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj",
+      "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
+      "outputPath": "D:\\FYP\\api\\BLL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
