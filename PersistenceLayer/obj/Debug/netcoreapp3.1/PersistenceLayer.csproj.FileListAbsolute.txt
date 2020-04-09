@@ -7,3 +7,12 @@ C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.dll
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.pdb
 C:\Users\insider Charlie\source\repos\fyp\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csprojAssemblyReference.cache
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.deps.json
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.dll
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.pdb
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csprojAssemblyReference.cache
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csproj.CoreCompileInputs.cache
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.AssemblyInfoInputs.cache
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.AssemblyInfo.cs
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.dll
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.pdb

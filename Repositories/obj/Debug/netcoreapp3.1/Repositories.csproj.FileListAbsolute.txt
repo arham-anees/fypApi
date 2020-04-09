@@ -6,3 +6,15 @@ C:\Users\insider Charlie\source\repos\fyp\Repositories\obj\Debug\netcoreapp3.1\R
 C:\Users\insider Charlie\source\repos\fyp\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
 C:\Users\insider Charlie\source\repos\fyp\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
 C:\Users\insider Charlie\source\repos\fyp\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.csprojAssemblyReference.cache
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CoreCompileInputs.cache
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfoInputs.cache
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.AssemblyInfo.cs
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.dll
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.pdb
+D:\FYP\api\Repositories\bin\Debug\netcoreapp3.1\Repositories.deps.json
+D:\FYP\api\Repositories\bin\Debug\netcoreapp3.1\Repositories.dll
+D:\FYP\api\Repositories\bin\Debug\netcoreapp3.1\Repositories.pdb
+D:\FYP\api\Repositories\bin\Debug\netcoreapp3.1\BLL.dll
+D:\FYP\api\Repositories\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\FYP\api\Repositories\obj\Debug\netcoreapp3.1\Repositories.csproj.CopyComplete

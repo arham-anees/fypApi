@@ -15,3 +15,15 @@ C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.
 C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfo.cs
 C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.dll
 C:\Users\captJack\Documents\GitHub\fypApi\Mapper\obj\Debug\netcoreapp3.1\Mapper.pdb
+D:\FYP\api\Mapper\bin\Debug\netcoreapp3.1\Mapper.deps.json
+D:\FYP\api\Mapper\bin\Debug\netcoreapp3.1\Mapper.dll
+D:\FYP\api\Mapper\bin\Debug\netcoreapp3.1\Mapper.pdb
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.csprojAssemblyReference.cache
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.csproj.CoreCompileInputs.cache
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfoInputs.cache
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.AssemblyInfo.cs
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.dll
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.pdb
+D:\FYP\api\Mapper\bin\Debug\netcoreapp3.1\BLL.dll
+D:\FYP\api\Mapper\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\FYP\api\Mapper\obj\Debug\netcoreapp3.1\Mapper.csproj.CopyComplete
