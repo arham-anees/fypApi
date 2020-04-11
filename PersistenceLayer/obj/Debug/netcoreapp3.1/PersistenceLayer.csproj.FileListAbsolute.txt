@@ -11,8 +11,16 @@ D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.deps.json
 D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.dll
 D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.pdb
 D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csprojAssemblyReference.cache
-D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csproj.CoreCompileInputs.cache
 D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.AssemblyInfoInputs.cache
 D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.AssemblyInfo.cs
 D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.dll
 D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.pdb
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.runtimeconfig.json
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\PersistenceLayer.runtimeconfig.dev.json
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.genruntimeconfig.cache
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csproj.CoreCompileInputs.cache
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\BLL.dll
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\Mapper.dll
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\Mapper.pdb
+D:\FYP\api\PersistenceLayer\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\FYP\api\PersistenceLayer\obj\Debug\netcoreapp3.1\PersistenceLayer.csproj.CopyComplete
