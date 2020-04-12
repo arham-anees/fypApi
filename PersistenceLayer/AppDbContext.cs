@@ -15,6 +15,7 @@ namespace PersistenceLayer {
 		#region DbSets
 
 		public DbSet<cUser> Users { get; set; }
+		public DbSet<cFiles> Files { get; set; }
 
 		#endregion
 

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FYP\\api\\Api\\Api.csproj": {}
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\FYP\\api\\Api\\Api.csproj": {
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\FYP\\api\\Api\\Api.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\Api\\obj\\",
+        "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,11 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\FYP\\api\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj"
+              "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj"
               },
-              "D:\\FYP\\api\\PersistenceLayer\\PersistenceLayer.csproj": {
-                "projectPath": "D:\\FYP\\api\\PersistenceLayer\\PersistenceLayer.csproj"
+              "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\PersistenceLayer.csproj": {
+                "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\PersistenceLayer.csproj"
               }
             }
           }
@@ -87,24 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FYP\\api\\BLL\\BLL.csproj": {
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,24 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FYP\\api\\Mapper\\Mapper.csproj": {
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "D:\\FYP\\api\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\Mapper\\obj\\",
+        "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\Mapper.csproj",
+        "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -184,8 +175,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\FYP\\api\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj"
+              "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\BLL\\BLL.csproj"
               }
             }
           }
@@ -235,24 +226,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FYP\\api\\PersistenceLayer\\PersistenceLayer.csproj": {
+    "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\PersistenceLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\PersistenceLayer\\PersistenceLayer.csproj",
+        "projectUniqueName": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\PersistenceLayer.csproj",
         "projectName": "PersistenceLayer",
-        "projectPath": "D:\\FYP\\api\\PersistenceLayer\\PersistenceLayer.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\PersistenceLayer\\obj\\",
+        "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\PersistenceLayer.csproj",
+        "packagesPath": "C:\\Users\\captJack\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\PersistenceLayer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\captJack\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -265,8 +253,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\FYP\\api\\Mapper\\Mapper.csproj": {
-                "projectPath": "D:\\FYP\\api\\Mapper\\Mapper.csproj"
+              "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\Mapper.csproj": {
+                "projectPath": "C:\\Users\\captJack\\Documents\\GitHub\\fypApi\\Mapper\\Mapper.csproj"
               }
             }
           }
@@ -306,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
