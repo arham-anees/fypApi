@@ -1,7 +1,6 @@
 import * as React from "react";
 
 import "./style.scss";
-
 export interface HomeProps {}
 
 export interface HomeState {}
