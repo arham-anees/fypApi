@@ -1,9 +1,15 @@
 import * as React from "react";
-import { Component } from "react";
 import TextFeild from "@material-ui/core/TextField";
-import { Input, InputAdornment, IconButton } from "@material-ui/core";
+import {
+  Input,
+  InputAdornment,
+  IconButton,
+  Button,
+  Icon,
+} from "@material-ui/core";
 import { Visibility, VisibilityOff } from "@material-ui/icons";
-import { POINT_CONVERSION_UNCOMPRESSED } from "constants";
+import ExitToAppSharpIcon from "@material-ui/icons/ExitToAppSharp";
+import "./login.scss";
 
 export interface LoginProps {}
 
@@ -16,11 +22,11 @@ export interface LoginState {
 class Login extends React.Component<LoginProps, LoginState> {
   constructor(props: LoginProps) {
     super(props);
-    this.setState({
+    this.state = {
       username: "",
       password: "",
       showPassword: false,
-    });
+    };
   }
 
   handleChange = (prop: keyof LoginState) => (
@@ -63,6 +69,14 @@ class Login extends React.Component<LoginProps, LoginState> {
                 </InputAdornment>
               }
             />
+            <Button variant="contained" color="primary" className="mt-3">
+              Login
+              <ExitToAppSharpIcon />
+            </Button>
+            <br />
+            <a href="/auth/signup" className="mt-5">
+              New here? Sign up first
+            </a>
           </form>
         </div>
       </div>
