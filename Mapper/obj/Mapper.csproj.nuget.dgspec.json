@@ -1,30 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\FYP\\api\\Mapper\\Mapper.csproj": {}
+    "/home/arham/Desktop/FYP/api/Mapper/Mapper.csproj": {}
   },
   "projects": {
-    "D:\\FYP\\api\\BLL\\BLL.csproj": {
+    "/home/arham/Desktop/FYP/api/BLL/BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\BLL\\BLL.csproj",
+        "projectUniqueName": "/home/arham/Desktop/FYP/api/BLL/BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\BLL\\obj\\",
+        "projectPath": "/home/arham/Desktop/FYP/api/BLL/BLL.csproj",
+        "packagesPath": "/home/arham/.nuget/packages/",
+        "outputPath": "/home/arham/Desktop/FYP/api/BLL/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arham/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -67,38 +62,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\FYP\\api\\Mapper\\Mapper.csproj": {
+    "/home/arham/Desktop/FYP/api/Mapper/Mapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\FYP\\api\\Mapper\\Mapper.csproj",
+        "projectUniqueName": "/home/arham/Desktop/FYP/api/Mapper/Mapper.csproj",
         "projectName": "Mapper",
-        "projectPath": "D:\\FYP\\api\\Mapper\\Mapper.csproj",
-        "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-        "outputPath": "D:\\FYP\\api\\Mapper\\obj\\",
+        "projectPath": "/home/arham/Desktop/FYP/api/Mapper/Mapper.csproj",
+        "packagesPath": "/home/arham/.nuget/packages/",
+        "outputPath": "/home/arham/Desktop/FYP/api/Mapper/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/arham/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\FYP\\api\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj"
+              "/home/arham/Desktop/FYP/api/BLL/BLL.csproj": {
+                "projectPath": "/home/arham/Desktop/FYP/api/BLL/BLL.csproj"
               }
             }
           }
@@ -148,7 +138,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
         }
       }
     }

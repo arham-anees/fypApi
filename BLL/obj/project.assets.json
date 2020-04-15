@@ -769,30 +769,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\insider Charlie\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/home/arham/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FYP\\api\\BLL\\BLL.csproj",
+      "projectUniqueName": "/home/arham/Desktop/FYP/api/BLL/BLL.csproj",
       "projectName": "BLL",
-      "projectPath": "D:\\FYP\\api\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\insider Charlie\\.nuget\\packages\\",
-      "outputPath": "D:\\FYP\\api\\BLL\\obj\\",
+      "projectPath": "/home/arham/Desktop/FYP/api/BLL/BLL.csproj",
+      "packagesPath": "/home/arham/.nuget/packages/",
+      "outputPath": "/home/arham/Desktop/FYP/api/BLL/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\insider Charlie\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/arham/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -835,7 +829,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
       }
     }
   }

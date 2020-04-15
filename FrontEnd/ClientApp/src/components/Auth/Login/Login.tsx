@@ -1,15 +1,10 @@
 import * as React from "react";
-import TextFeild from "@material-ui/core/TextField";
-import {
-  Input,
-  InputAdornment,
-  IconButton,
-  Button,
-  Icon,
-} from "@material-ui/core";
-import { Visibility, VisibilityOff } from "@material-ui/icons";
+import TextField from "@material-ui/core/TextField";
+import { Button } from "@material-ui/core";
 import ExitToAppSharpIcon from "@material-ui/icons/ExitToAppSharp";
 import "./login.scss";
+import "../style.scss";
+import PasswordField from "../../PasswordField";
 
 export interface LoginProps {}
 
@@ -46,29 +41,11 @@ class Login extends React.Component<LoginProps, LoginState> {
     return (
       <div className="container">
         <div className="login-container">
-          <form>
-            <TextFeild id="username" label="Username" />
-            <Input
-              id="standard-adornment-password"
-              type={this.state.showPassword ? "text" : "password"}
-              value={this.state.password}
-              onChange={this.handleChange("password")}
-              endAdornment={
-                <InputAdornment position="end">
-                  <IconButton
-                    aria-label="toggle password visibility"
-                    onClick={this.handleClickShowPassword}
-                    onMouseDown={this.handleMouseDownPassword}
-                  >
-                    {this.state.showPassword ? (
-                      <Visibility />
-                    ) : (
-                      <VisibilityOff />
-                    )}
-                  </IconButton>
-                </InputAdornment>
-              }
-            />
+          <h4>Welcome Back</h4>
+          <form className="w-100">
+            <TextField id="username" label="Username" className="w-100" />
+            <PasswordField label="Password" name="Password" />
+
             <Button variant="contained" color="primary" className="mt-3">
               Login
               <ExitToAppSharpIcon />
