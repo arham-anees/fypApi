@@ -11,11 +11,13 @@ import { Visibility, VisibilityOff } from "@material-ui/icons";
 export interface PasswordFieldProps {
   label: string;
   name: string;
+  value: string;
+  HandleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
+  // HandleBlur: (event: React.FocusEvent<HTMLInputElement>) => void;
   // onBlur: React.FocusEvent;
 }
 
 export interface PasswordFieldState {
-  password: string;
   showPassword: boolean;
 }
 
@@ -26,17 +28,12 @@ class PasswordField extends React.Component<
   constructor(props: PasswordFieldProps) {
     super(props);
     this.state = {
-      password: "",
       showPassword: false,
     };
   }
 
   handleClickShowPassword = () => {
     this.setState({ showPassword: !this.state.showPassword });
-  };
-
-  handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    this.setState({ password: event.target.value });
   };
 
   style = {
@@ -54,10 +51,11 @@ class PasswordField extends React.Component<
           <Input
             id="passwordField"
             type={this.state.showPassword ? "text" : "password"}
-            value={this.state.password}
+            //value={this.state.value}
             style={this.style}
-            onChange={this.handleChange}
-            // onBlur={this.props.onBlur}
+            onChange={this.props.HandleChange}
+            //onBlur={this.props.HandleBlur}
+            name={this.props.name}
             required
             aria-describedby="passwordFieldError"
             endAdornment={
@@ -71,9 +69,6 @@ class PasswordField extends React.Component<
               </InputAdornment>
             }
           />
-          {/* <FormHelperText id="passwordFieldError">
-            Password is required.
-          </FormHelperText> */}
         </FormControl>
       </React.Fragment>
     );

@@ -1,9 +1,9 @@
 import * as React from "react";
-import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
-import NavMenu from "./NavMenu";
-import Login from "./Auth/Login/Login";
-import SignUp from "./Auth/SignUp/SignUp";
-import { withRouter, Redirect } from "react-router";
+import { Switch, Route } from "react-router-dom";
+import NavMenu from "../../Views/NavBar/NavMenu";
+import Login from "./Login/Login";
+import SignUp from "./SignUp/SignUp";
+import { Redirect } from "react-router";
 
 export interface AuthProps {
   match: string;
@@ -15,7 +15,7 @@ class Auth extends React.Component<AuthProps, AuthState> {
   render() {
     return (
       <React.Fragment>
-        <NavMenu />
+        <NavMenu IsLoggedIn={true} />
         <Switch>
           <Route path="/auth/(|login)" component={Login} />
           <Route path="/auth/signup" component={SignUp} />

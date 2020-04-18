@@ -24,9 +24,7 @@ class Login extends React.Component<LoginProps, LoginState> {
     };
   }
 
-  handleChange = (prop: keyof LoginState) => (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
+  handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ password: event.target.value });
   };
 
@@ -37,6 +35,10 @@ class Login extends React.Component<LoginProps, LoginState> {
   handleMouseDownPassword = (event: React.MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
   };
+
+  handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
+    console.log(this.state);
+  };
   render() {
     return (
       <div className="container">
@@ -44,7 +46,12 @@ class Login extends React.Component<LoginProps, LoginState> {
           <h4>Welcome Back</h4>
           <form className="w-100">
             <TextField id="username" label="Username" className="w-100" />
-            <PasswordField label="Password" name="Password" />
+            <PasswordField
+              label="Password"
+              name="Password"
+              value={this.state.password}
+              HandleChange={this.handleChange}
+            />
 
             <Button variant="contained" color="primary" className="mt-3">
               Login

@@ -3,12 +3,12 @@ import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Home from "./VisitorModule/Home/Home";
 import AboutUs from "./VisitorModule/AboutUs/AboutUs";
-import NavMenu from "./NavMenu";
+import NavMenu from "../Views/NavBar/NavMenu";
 
 export default () => {
   return (
     <React.Fragment>
-      <NavMenu />
+      <NavMenu IsLoggedIn={true} />
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />

@@ -18,6 +18,15 @@ export interface SignUpState {
 }
 
 class SignUp extends React.Component<SignUpProps, SignUpState> {
+  constructor(props: SignUpProps) {
+    super(props);
+    this.state = {
+      Name: "",
+      Email: "",
+      Username: "",
+      Password: "",
+    };
+  }
   private OnSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     console.log(this.state);
     event.preventDefault();
@@ -67,7 +76,13 @@ class SignUp extends React.Component<SignUpProps, SignUpState> {
               onChange={this.HandleChange}
               required
             />
-            <PasswordField label="Password" name="Password" />
+            <PasswordField
+              label="Password"
+              name="Password"
+              value={this.state.Password}
+              HandleChange={this.HandleChange}
+              // HandleBlur={this.HandleBlur}
+            />
             {/* <PasswordField label="Confirm Password" Required={true} /> */}
             <Button
               type="submit"
