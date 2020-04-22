@@ -15,7 +15,6 @@ class Auth extends React.Component<AuthProps, AuthState> {
   render() {
     return (
       <React.Fragment>
-        <NavMenu IsLoggedIn={true} />
         <Switch>
           <Route path="/auth/(|login)" component={Login} />
           <Route path="/auth/signup" component={SignUp} />

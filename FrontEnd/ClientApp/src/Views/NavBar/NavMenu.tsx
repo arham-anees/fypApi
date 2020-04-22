@@ -1,20 +1,21 @@
 import React from "react";
-import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
+// import { makeStyles, Theme, createStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import Badge from "@material-ui/core/Badge";
+// import Badge from "@material-ui/core/Badge";
 import MenuItem from "@material-ui/core/MenuItem";
 import Menu from "@material-ui/core/Menu";
 import AccountCircle from "@material-ui/icons/AccountCircle";
-import MailIcon from "@material-ui/icons/Mail";
-import NotificationsIcon from "@material-ui/icons/Notifications";
-import MoreIcon from "@material-ui/icons/MoreVert";
-import { Link, Button, Fade } from "@material-ui/core";
+// import MailIcon from "@material-ui/icons/Mail";
+// import NotificationsIcon from "@material-ui/icons/Notifications";
+// import MoreIcon from "@material-ui/icons/MoreVert";
+import { Fade } from "@material-ui/core";
 import "./NavMenu.scss";
 import CloudUploadIcon from "@material-ui/icons/CloudUpload";
 import MenuOutlinedIcon from "@material-ui/icons/MenuOutlined";
+import { Link } from "react-router-dom";
 
 const classes = {
   desktop: "d-none d-md-inline-block desktop",
@@ -30,22 +31,24 @@ const style = {
 type NavMenuProps = {
   IsLoggedIn: boolean;
 };
-export default function PrimarySearchAppBar(props: NavMenuProps) {
+export default function NaveMenu(props: NavMenuProps) {
   const renderLogin = () => {
     return (
       <IconButton className={classes.link}>
-        <a href="/Auth/">
+        <Link to="/Auth/">
           <AccountCircle className="m-2" />
           <span className={classes.mobile}>Login</span>
-        </a>
+        </Link>
       </IconButton>
     );
   };
   const renderUpload = () => {
     return (
       <IconButton>
-        <CloudUploadIcon />
-        <span className={classes.mobile}>Upload Files</span>
+        <Link to="/developer/upload">
+          <CloudUploadIcon />
+          <span className={classes.mobile}>Upload Files</span>
+        </Link>
       </IconButton>
     );
   };

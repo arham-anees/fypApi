@@ -37,7 +37,22 @@ class Login extends React.Component<LoginProps, LoginState> {
   };
 
   handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(this.state);
+    console.log("calling api");
+    const result = fetch(
+      "https://localhost:44336/api/auth/authenticate?username=" +
+        this.state.username +
+        "&password=" +
+        this.state.password
+    )
+      .then((response) => response.json())
+      .then(
+        (result) => console.log(result),
+        (error) => console.log(error)
+      )
+      .catch((error) => console.log(error));
+
+    console.log(result);
+    event.preventDefault();
   };
   render() {
     return (
@@ -53,7 +68,12 @@ class Login extends React.Component<LoginProps, LoginState> {
               HandleChange={this.handleChange}
             />
 
-            <Button variant="contained" color="primary" className="mt-3">
+            <Button
+              variant="contained"
+              color="primary"
+              className="mt-3"
+              onClick={this.handleClick}
+            >
               Login
               <ExitToAppSharpIcon />
             </Button>

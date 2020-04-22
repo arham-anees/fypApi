@@ -7,22 +7,22 @@ import Home from "./components/VisitorModule/Home/Home";
 import AboutUs from "./components/VisitorModule/AboutUs/AboutUs";
 import NavMenu from "./Views/NavBar/NavMenu";
 import Auth from "./components/Auth/Auth";
+import Developer from "./components/Developer/Developer";
 export default () => (
   <BrowserRouter>
+    <NavMenu IsLoggedIn={true} />
     <Switch>
       <Route exact path="/(|home)">
-        <NavMenu IsLoggedIn={true} />
         <Home />
       </Route>
       <Route path="/aboutus">
-        <NavMenu IsLoggedIn={true} />
         <AboutUs />
       </Route>
+      <Route path="/404" component={Page404} />
+
       <Route path="/Auth" component={Auth} />
-      <Route path="/404">
-        <NavMenu IsLoggedIn={true} />
-        <Page404 />
-      </Route>
+      <Route path="/Developer" component={Developer} />
+
       <Redirect to="/404" />
     </Switch>
   </BrowserRouter>
